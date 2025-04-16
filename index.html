@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js</title>
+</head>
+<body>
+   
+    <h1>Task Of Javascript</h1>
+    <script>
+        //question 1
+let numbers = [5, 3, 8, 1, 2, 7];
+
+numbers.sort(function(a, b) {
+  return a - b;
+});
+
+document.writeln("1.)Sorted array:", numbers);
+
+//question 2
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+let combinedArray = array1.concat(array2);
+
+document.writeln("<br>2.)Combined Array:", combinedArray);
+
+
+
+//question 3
+let fruits = ["apple", "banana", "cherry", "date"];
+
+let removedElement = fruits.shift();
+
+document.writeln("<br>3.) Array:", fruits);
+document.writeln("<br>Removed Element:", removedElement);
+
+    </script>
+</body>
+</html>
